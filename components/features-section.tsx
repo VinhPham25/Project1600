@@ -7,39 +7,39 @@ const features = [
   {
     icon: Target,
     title: "1600-Level Strategy",
-    description: "Learn the exact methods that earned a perfect score. No fluff, just proven techniques that work.",
+    description: "Learn the exact methods that recently earned a top 1% SAT score.",
     highlight: true,
   },
   {
     icon: DollarSign,
-    title: "Unbeatable Affordability",
+    title: "Diagnostic Tests",
     description:
-      "Premium tutoring at a fraction of the cost. Why pay $2,000+ when you can get better results for less?",
+      "Weekly official SAT diagnostic tests to track your progress and adapt your study plan.",
     highlight: false,
   },
   {
     icon: MessageSquare,
-    title: "Personalized Feedback",
+    title: "Structured Curriculum",
     description:
-      "Every session is tailored to your weaknesses. Get detailed feedback on every practice test and question.",
+      "Lesson plans developed from official SAT questions to pinpoint key SAT topics and skills.",
     highlight: false,
   },
   {
     icon: Brain,
-    title: "Digital SAT Mastery",
-    description: "Fully updated curriculum for the new Digital SAT format. Stay ahead with adaptive test strategies.",
+    title: "Personalized Feedback",
+    description: "We care about your success. Receive weekly check-ins, strategy adjustments, and question feedback.",
+    highlight: false,
+  },
+  {
+    icon: Users,
+    title: "Small Group Learning",
+    description: "Sessions of maximum 6 students to ensure personalized attention and peer support.",
     highlight: false,
   },
   {
     icon: Clock,
     title: "Flexible Scheduling",
-    description: "Sessions that fit your busy student life. Evening, weekend, and intensive options available.",
-    highlight: false,
-  },
-  {
-    icon: Users,
-    title: "Small Group Options",
-    description: "Learn alongside peers for collaborative problem-solving and cost-effective prep.",
+    description: "Online sessions that fit your busy student life. We work around your schedule.",
     highlight: false,
   },
 ]
@@ -74,7 +74,7 @@ export function FeaturesSection() {
               initial={{ opacity: 0, y: 30 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ delay: index * 0.025 }}
               whileHover={{ scale: 1.03 }}
               className={`group p-6 rounded-2xl border transition-all duration-150 cursor-pointer shadow-md hover:shadow-lg ${
                 feature.highlight

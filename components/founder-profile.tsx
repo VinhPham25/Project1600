@@ -51,7 +51,7 @@ export function FounderProfile() {
               <div className="mt-8 flex justify-center md:justify-start gap-4">
                 <a
                   href="mailto:contact@project1600.com"
-                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#2563EB] text-white hover:bg-[#1E3A8A] transition-colors"
+                  className="flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1E3A8A] text-white hover:bg-[#1E3A8A] transition-colors"
                 >
                   <Mail className="w-4 h-4" />
                   Email

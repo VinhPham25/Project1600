@@ -9,27 +9,27 @@ const comparisons = [
   {
     feature: "Price",
     bigPrep: "$2,000 - $5,000+",
-    project1600: "$499 - $799",
+    project1600: "$750",
     bigPrepBad: true,
     project1600Good: true,
   },
   {
     feature: "Instructor Quality",
-    bigPrep: "Rotating tutors, varied experience",
-    project1600: "Founder-led, 1600 scorer",
+    bigPrep: "Rotating older instructors",
+    project1600: "Class of 2025 Valedictorian",
     bigPrepBad: true,
     project1600Good: true,
   },
   {
     feature: "Class Size",
     bigPrep: "20-30+ students",
-    project1600: "1-on-1 or small groups (max 5)",
+    project1600: "Small group (max 6 students)",
     bigPrepBad: true,
     project1600Good: true,
   },
   {
     feature: "Support Access",
-    bigPrep: "Email only, 48hr response",
+    bigPrep: "Email only, 48-72 hour response",
     project1600: "Direct messaging, same-day response",
     bigPrepBad: true,
     project1600Good: true,
@@ -37,14 +37,28 @@ const comparisons = [
   {
     feature: "Curriculum",
     bigPrep: "Generic, one-size-fits-all",
-    project1600: "Personalized to your weaknesses",
+    project1600: "Personalized for your growth",
     bigPrepBad: true,
     project1600Good: true,
   },
   {
-    feature: "Digital SAT Ready",
-    bigPrep: "Still catching up",
-    project1600: "Fully updated curriculum",
+    feature: "Diagnostic Tests",
+    bigPrep: "Generic mock exams",
+    project1600: "Official SAT practice tests",
+    bigPrepBad: true,
+    project1600Good: true,
+  },
+  {
+    feature: "Flexibility",
+    bigPrep: "Fixed daily schedule",
+    project1600: "Custom weekly lessons",
+    bigPrepBad: true,
+    project1600Good: true,
+  },
+  {
+    feature: "Extra Mentoring",
+    bigPrep: "Limited",
+    project1600: "Free office hours",
     bigPrepBad: true,
     project1600Good: true,
   },
@@ -53,7 +67,7 @@ const comparisons = [
 const referralBenefits = [
   { icon: DollarSign, text: "Earn $100 off for each successful referral" },
   { icon: Users, text: "No limit on how many friends you can refer" },
-  { icon: Gift, text: "Your friend also gets a discount on registration" },
+  { icon: Users, text: "Learn together and grow together" },
 ]
 
 export function ComparisonSection() {
@@ -136,8 +150,7 @@ export function ComparisonSection() {
                 Share the Success, <span className="text-[#1E3A8A]">Earn Rewards</span>
               </h3>
               <p className="text-[#64748B] leading-relaxed mb-8">
-                Know someone who could benefit from Project 1600? Refer them to our program and earn $100 off your next
-                payment for each successful referral. A successful referral means your friend completes registration and
+                Know someone who could benefit from Project 1600? Refer them to our program and earn $100 for each successful referral. A successful referral means your friend completes registration and
                 names you as the person who referred them.
               </p>
 
@@ -187,7 +200,7 @@ export function ComparisonSection() {
                   <Gift className="w-7 h-7 text-[#1E3A8A]" />
                 </div>
 
-                <h4 className="text-xl font-bold text-[#0a0a0a] mb-3">Refer & Save</h4>
+                <h4 className="text-xl font-bold text-[#0a0a0a] mb-3">Refer & Earn</h4>
                 <p className="text-[#64748B] leading-relaxed">
                   Help your friends succeed on the SAT while reducing your own costs. Every referral brings you one step
                   closer to free tutoring sessions.
@@ -195,7 +208,7 @@ export function ComparisonSection() {
 
                 <div className="mt-6 pt-6 border-t border-[#E2E8F0]">
                   <div className="flex items-center justify-between">
-                    <span className="text-sm text-[#64748B]">Savings per referral</span>
+                    <span className="text-sm text-[#64748B]">Earnings per referral</span>
                     <span className="text-2xl font-bold text-[#1E3A8A]">$100</span>
                   </div>
                 </div>

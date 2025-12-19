@@ -24,7 +24,7 @@ export function HeroSection() {
               className="inline-flex items-center gap-2 bg-[#DBEAFE] text-[#0a0a0a] px-4 py-2 rounded-full text-sm font-medium mb-6"
             >
               <Target className="w-4 h-4 text-[#1E3A8A]" />
-              Trusted by 100+ Students
+              Trusted by students and parents
             </motion.div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-[#0a0a0a] leading-tight text-balance">
@@ -32,8 +32,8 @@ export function HeroSection() {
             </h1>
 
             <p className="mt-6 text-lg text-[#64748B] max-w-xl leading-relaxed">
-              Get personalized, 1600-level SAT strategies from a perfect scorer at a fraction of what big prep companies
-              charge. Real results, real affordability.
+              Get personalized, proven SAT strategies at a fraction of what big prep companies
+              charge. Curriculum designed by students, for students.
             </p>
 
             <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -60,7 +60,7 @@ export function HeroSection() {
             <div className="mt-12 grid grid-cols-3 gap-6">
               {[
                 { value: "1600", label: "SAT Score" },
-                { value: "200+", label: "Avg. Improvement" },
+                { value: "160+", label: "Average Improvement" },
                 { value: "95%", label: "Success Rate" },
               ].map((stat, index) => (
                 <motion.div
@@ -105,21 +105,26 @@ export function HeroSection() {
                   <div className="bg-[#F8FAFC] rounded-xl p-4">
                     <p className="text-sm text-[#64748B] mb-3">Question 15 of 27</p>
                     <p className="text-[#0a0a0a] leading-relaxed">
-                      {"The author's use of metaphor in line 23 primarily serves to..."}
+                        {"The author's use of metaphor in line 23 primarily serves to..."}
                     </p>
                     <div className="mt-4 space-y-2">
-                      {["A", "B", "C", "D"].map((option) => (
+                        {[
+                        { option: "A", text: "emphasize the complexity of the scientific process" },
+                        { option: "B", text: "illustrate the contrast between theory and practice" },
+                        { option: "C", text: "suggest skepticism toward traditional methods" },
+                        { option: "D", text: "highlight the interconnected nature of the concepts" }
+                        ].map((item) => (
                         <div
-                          key={option}
-                          className={`p-3 rounded-lg border transition-all duration-150 cursor-pointer ${
-                            option === "B" ? "border-[#1E3A8A] bg-[#DBEAFE]" : "border-[#E2E8F0] hover:border-[#60A5FA]"
-                          }`}
+                            key={item.option}
+                            className={`p-3 rounded-lg border transition-all duration-150 cursor-pointer ${
+                            item.option === "B" ? "border-[#1E3A8A] bg-[#DBEAFE]" : "border-[#E2E8F0] hover:border-[#60A5FA]"
+                            }`}
                         >
-                          <span className="text-[#0a0a0a]">{option}. Option text here</span>
+                            <span className="text-[#0a0a0a]">{item.option}. {item.text}</span>
                         </div>
-                      ))}
+                        ))}
                     </div>
-                  </div>
+                    </div>
 
                   <div className="flex items-center justify-between pt-4">
                     <div className="flex items-center gap-2">

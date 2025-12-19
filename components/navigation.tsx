@@ -25,7 +25,7 @@ export function Navigation() {
     { href: pathname === "/" ? "#services" : "/#services", label: "Services" },
     { href: pathname === "/" ? "#results" : "/#results", label: "Results" },
     { href: pathname === "/" ? "#pricing" : "/#pricing", label: "Pricing" },
-    { href: "/about", label: "About Us" },
+    { href: "/founder-profile", label: "About Us" },
   ]
 
   return (

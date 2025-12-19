@@ -32,21 +32,21 @@ export function MissionSection() {
 
             <p className="text-lg text-[#64748B] leading-relaxed mb-4">
               {
-                "Project 1600 was born from a simple belief: every student deserves access to elite SAT preparation, regardless of their family's financial situation. After achieving a perfect score, I realized that the strategies that worked weren't being taught by expensive prep companies—they were gatekeeping success behind $5,000 price tags."
+                "Project 1600 was born from the belief that quality, personalized SAT preparation shouldn't be blocked by an expensive price tag."
               }
             </p>
             <p className="text-lg text-[#64748B] leading-relaxed mb-8">
               {
-                "Our mission is to democratize SAT success. We provide the same caliber of instruction you'd get from a $200/hour tutor, but at a price that doesn't break the bank."
+                "Our mission is to democratize SAT success. We provide affordable, high-impact tutoring from students who personally understand the challenges and successful techniques for excelling on the Digital SAT."
               }
             </p>
 
             {/* Stats Cards */}
             <div className="grid grid-cols-3 gap-4">
               {[
-                { icon: Target, value: "1600", label: "SAT Score" },
-                { icon: Users, value: "100+", label: "Students Helped" },
-                { icon: Award, value: "+200", label: "Avg. Improvement" },
+                { icon: Target, value: "4+", label: "Years of Experience" },
+                { icon: Users, value: "20+", label: "Students Helped" },
+                { icon: Award, value: "160+", label: "Average Improvement" },
               ].map((item, index) => (
                 <motion.div
                   key={item.label}
@@ -75,7 +75,7 @@ export function MissionSection() {
           >
             <div className="relative rounded-2xl overflow-hidden border border-[#E2E8F0] shadow-xl">
               <img
-                src="/professional-sat-tutor-teaching-student-in-modern-.jpg"
+                src="/professional-sat-tutor-teaching-student-in-modern.jpg"
                 alt="SAT Tutoring Session"
                 className="w-full h-auto object-cover"
               />

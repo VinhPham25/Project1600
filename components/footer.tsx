@@ -15,7 +15,7 @@ export function Footer() {
               <span className="text-2xl font-bold text-[#60A5FA]">1600</span>
             </Link>
             <p className="mt-4 text-white/70 max-w-md leading-relaxed">
-              Affordable, personalized SAT tutoring from a perfect scorer. Our mission is to make elite test prep
+              Affordable, personalized SAT tutoring from students, for students. Our mission is to make elite test prep
               accessible to every student.
             </p>
           </div>
@@ -42,14 +42,14 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Connect</h4>
             <div className="flex gap-4">
               <a
-                href="mailto:contact@project1600.com"
+                href="vinh.pham2529@gmail.com"
                 className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
                 aria-label="Email us"
               >
                 <Mail className="w-5 h-5" />
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/vinh-t-pham/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"
@@ -58,7 +58,7 @@ export function Footer() {
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/vinhapham/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-lg bg-white/10 flex items-center justify-center hover:bg-white/20 transition-colors"

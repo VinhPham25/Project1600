@@ -7,44 +7,44 @@ import { Quote } from "lucide-react"
 const testimonials = [
   {
     quote:
-      "I went from a 1280 to a 1490 in just 8 weeks. The strategies taught here are game-changers that no other prep course showed me.",
-    improvement: "+210",
-    name: "Sarah M.",
-    date: "Class of 2024",
-  },
-  {
-    quote:
-      "As a parent, I was skeptical of online tutoring. But the personalized attention my son received exceeded all expectations. Worth every penny!",
-    improvement: "+180",
-    name: "James P.",
-    date: "Parent",
-  },
-  {
-    quote:
-      "The Digital SAT format was intimidating until Project 1600. Now I feel completely confident. Best investment in my future.",
-    improvement: "+240",
-    name: "Emily K.",
+      "I was always impressed by how much preparation and effort Vinh put into each lesson...he explains the solutions to each problem well, working at a pace you're comfortable with.",
+    improvement: "+230",
+    name: "Tyler W.",
     date: "Class of 2025",
   },
   {
     quote:
-      "I tried two other prep companies before this. Project 1600 was the only one that actually understood my learning style.",
-    improvement: "+190",
-    name: "Michael T.",
-    date: "Class of 2024",
-  },
-  {
-    quote: "The founder's personal involvement makes all the difference. It's not just tutoring, it's mentorship.",
-    improvement: "+220",
-    name: "Aisha R.",
-    date: "Class of 2025",
+      "Vinh is incredibly organized and teaches strategies to identify patterns. What truly sets him apart is that he's a fellow student who understands my perspective, making each session more relatable, comfortable, and effective than those with traditional instructors.",
+    improvement: "+110",
+    name: "Tejas V.",
+    date: "Class of 2027",
   },
   {
     quote:
-      "From 1320 to 1520 in 6 weeks! The structured approach and constant feedback kept me accountable and motivated.",
-    improvement: "+200",
-    name: "David L.",
-    date: "Class of 2024",
+      "Vinh's explanation are incredibly thorough. His interactive approach breaks down each question in a way that made a huge difference, not just for the SAT but in all my classes.",
+    improvement: "+140",
+    name: "Sanjay T.",
+    date: "Class of 2027",
+  },
+  {
+    quote:
+      "I really enjoyed this summer with Project 1600 and learned a lot. All the lessons were structured well, and Vinh took his time to go through each SAT topic and explain it thoroughly. I had improvement with my SAT score throughout the summer which made me feel more confident about the August SAT.",
+    improvement: "+140",
+    name: "Shwetha M.",
+    date: "Class of 2027",
+  },
+  {
+    quote: "Vinh provided clear explanations and practical strategies that really helped me understand the SAT. Group practices and detailed feedback made each lesson very engaging. Overall, it was a worthwhile experience that prepared me well for the test.",
+    improvement: "+150",
+    name: "Anonymous",
+    date: "Class of 2027",
+  },
+  {
+    quote:
+      "Can’t thank you enough for all the help and encouragement you gave my kids over the summer. I told kids the jump my son saw in his score, and I thought the class was really good. You guys are awesome!",
+    improvement: "+230",
+    name: "Julie Brown",
+    date: "Parent and VRHS Teacher",
   },
 ]
 

@@ -7,8 +7,8 @@ export function AboutHero() {
     <section className="pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-background">
       <div className="max-w-4xl mx-auto">
         <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-12">
-          <h1 className="text-4xl sm:text-5xl font-bold text-[#1E3A8A] text-balance">
-            {"The Founder's"} <span className="text-[#2563EB]">Story</span>
+          <h1 className="text-4xl sm:text-5xl font-bold text-[#0a0a0a] text-balance">
+            {"The Founder's"} <span className="text-[#1E3A8A]">Story</span>
           </h1>
           <p className="mt-4 text-lg text-[#64748B]">Why Project 1600 exists and who{"'s"} behind it</p>
         </motion.div>
