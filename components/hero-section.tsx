@@ -59,7 +59,7 @@ export function HeroSection() {
 
             <div className="mt-12 grid grid-cols-3 gap-6">
               {[
-                { value: "1600", label: "SAT Score" },
+                { value: "8", label: "Week Program" },
                 { value: "160+", label: "Average Improvement" },
                 { value: "95%", label: "Success Rate" },
               ].map((stat, index) => (

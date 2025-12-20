@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Target, DollarSign, MessageSquare, Brain, Clock, Users } from "lucide-react"
+import { Target, MessagesSquare, Clock, Users, BookCheck, BookOpenText} from "lucide-react"
 
 const features = [
   {
@@ -11,21 +11,21 @@ const features = [
     highlight: true,
   },
   {
-    icon: DollarSign,
+    icon: BookCheck,
     title: "Diagnostic Tests",
     description:
       "Weekly official SAT diagnostic tests to track your progress and adapt your study plan.",
     highlight: false,
   },
   {
-    icon: MessageSquare,
+    icon: BookOpenText,
     title: "Structured Curriculum",
     description:
       "Lesson plans developed from official SAT questions to pinpoint key SAT topics and skills.",
     highlight: false,
   },
   {
-    icon: Brain,
+    icon: MessagesSquare,
     title: "Personalized Feedback",
     description: "We care about your success. Receive weekly check-ins, strategy adjustments, and question feedback.",
     highlight: false,

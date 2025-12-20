@@ -1,13 +1,13 @@
 import { Navigation } from "@/components/navigation"
 import { AboutHero } from "@/components/about-hero"
-import { FounderProfile } from "@/components/founder-profile"
+import { OurTeam } from "@/components/our-team"
 
 export default function Home() {
   return (
     <main className="min-h-screen bg-background">
       <Navigation />
       <AboutHero />
-      <FounderProfile />
+      <OurTeam />
     </main>
   )
 }
