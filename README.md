@@ -1,36 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Project 1600 – SAT Prep Program
 
-## Getting Started
+Welcome to the official website for **Project 1600**, a student-driven SAT preparation program dedicated to helping high school students achieve their best possible scores. This site serves as the main hub for information about our program, testimonials from students and parents, and details on how to get involved.
 
-First, run the development server:
+## What is Project 1600?
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Project 1600 is an SAT prep initiative founded and led by students who have excelled on the SAT themselves. Our mission is to make high-quality, relatable, and effective SAT preparation accessible to everyone. We believe that students learn best from peers who understand their challenges and can offer practical strategies, encouragement, and support.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### What Makes Us Different?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Peer-Led Instruction:** Our tutors are high-achieving students who have recently taken the SAT and know what it takes to succeed.
+- **Personalized Approach:** We tailor our lessons to each student’s needs, focusing on both content mastery and test-taking strategies.
+- **Proven Results:** Our students have seen significant score improvements, as highlighted in the testimonials section of this website.
+- **Supportive Community:** We foster a collaborative and encouraging environment where students can ask questions, practice together, and build confidence.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## About This Website
 
-## Learn More
+This website was created to:
 
-To learn more about Next.js, take a look at the following resources:
+- Introduce Project 1600 and our mission
+- Share success stories and testimonials from students and parents
+- Provide information about our team and teaching philosophy
+- Offer details on how to join or contact us
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The site is built with [Next.js](https://nextjs.org), a modern web framework, and features a clean, responsive design to ensure a great experience on any device.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Explore the Site
 
-## Deploy on Vercel
+- **Home:** Learn about our program and what sets us apart
+- **Testimonials:** Read real feedback from students and parents
+- **About:** Meet our team and discover our teaching approach
+- **FAQ:** Find answers to common questions
+- **Contact/Registration:** Get in touch or sign up for the next session
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Get Involved
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Interested in joining Project 1600 or want to learn more? Visit the registration section or contact us directly through the website. We’re excited to help you reach your SAT goals!
